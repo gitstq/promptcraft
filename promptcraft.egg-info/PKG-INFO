@@ -1,0 +1,37 @@
+Metadata-Version: 2.4
+Name: promptcraft
+Version: 1.0.0
+Summary: 轻量级AI Prompt优化与管理工具
+Home-page: https://github.com/gitstq/promptcraft
+Author: PromptCraft Team
+Author-email: PromptCraft Team <promptcraft@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/gitstq/promptcraft
+Project-URL: Repository, https://github.com/gitstq/promptcraft
+Project-URL: Issues, https://github.com/gitstq/promptcraft/issues
+Keywords: prompt,ai,llm,claude,gpt,management,optimization,cli
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: click>=8.0.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: pyperclip>=1.8.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: flake8>=6.0.0; extra == "dev"
+Requires-Dist: mypy>=1.0.0; extra == "dev"
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
