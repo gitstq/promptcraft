@@ -1,0 +1,3 @@
+[console_scripts]
+pc = promptcraft.cli:main
+promptcraft = promptcraft.cli:main
